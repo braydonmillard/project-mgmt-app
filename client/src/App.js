@@ -14,7 +14,7 @@ const cache = new InMemoryCache({
             return incoming;
           }
         },
-        clients: {
+        projects: {
           merge(existing, incoming) {
             return incoming;
           }
